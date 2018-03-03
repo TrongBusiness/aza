@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
@@ -48,5 +50,24 @@ html, body {
   cursor: default; }
   .sound--off {
     text-decoration: line-through; }
+
+  #trong {
+    text-align: center;
+    font-size: 40px;
+  }
+
+.title {
+  margin-top: 10px;
+  height: 150px;
+  font-weight: 800;
+  color: transparent;
+  font-size: 120px;
+  background: url("https://images.pexels.com/photos/285858/pexels-photo-285858.jpeg?w=940&h=650&auto=compress&cs=tinysrgb") repeat;
+  background-position: 10% center;
+  -webkit-background-clip: text;
+  position: relative;
+  text-align: center;
+  line-height: 90px;
+  letter-spacing: -8px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+.title {
+  font-weight: 800;
+  color: transparent;
+  font-size: 120px;
+  background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position: relative;
+  text-align: center;
+  line-height: 90px;
+  letter-spacing: -8px; }
+/*# sourceMappingURL=style2.css.map */
