@@ -1,25 +1,27 @@
 window.onload = function(argument) {
 
 	// var lyric = "i couldn't take it couldn't stand another minute couldn't bear another day without you in it";
-  var lyric = `Attractive Bright Brilliant Wonderful Splendid Delightful Elegant Exquisite Glorious Lavish Lovely Pleasing Stunning Plush Shimmering
-              Graceful Elegant Cher Pretty Cute Charming Angelic Divine Marvelous Marvelous Beautiful Dainty Captivating Classy Bewitching Gorgeous
-              Graceful Elegant Cher Foxy Pretty Cute Charming Angelic Divine Marvelous Marvelous Beautiful Dainty Captivating Classy Bewitching Gorgeous
-              Magnetic Mesmeric Teasing Hottie Adorable Foxy Amazing Radiant Sexy Hot Appealing Alluring Beguiling Breathtaking Dainty Dreamy Fabulous Goddess
-              Heart-stopping Irresistible Hypnotic Graceful Luscious Perfect Smoking Spectacular Striking Special Affectionate Dependable Compassionate Patient
-              Irreplaceable Fantastic Courageous Smart Awesome Determined Fun Delightful Thoughtful Thicc Respectful Cute Blessing Loving Seductive Magical
+  var lyric = `Attractive Bright Brilliant Wonderful Splendid Elegant Exquisite Lavish Lovely Pleasing Pleasing Pleasing Stunning Plush Shimmering
+              Graceful Elegant Cher Pretty Cute Charming Angelic Divine Marvelous Beautiful Dainty Captivating Classy Bewitching Gorgeous
+              Graceful Elegant Cher Foxy Pretty Cute Charming Charming Striking Divine Beautiful Dainty Captivating Bewitching Gorgeous
+              Magnetic Mesmeric Teasing Hottie Adorable Foxy Radiant Sexy Hot Appealing Alluring Beguiling Breathtaking Dainty Dreamy Fabulous Goddess
+              Heart-stopping Dreamy Dependable Irresistible Hypnotic Graceful Luscious Perfect Smoking Smoking Striking Special Affectionate Dependable Compassionate Patient Patient Patient
+              Irreplaceable Fantastic Courageous Smart Awesome Determined Determined Fun Delightful Thoughtful Thicc Respectful Cute Blessing Blessing Blessing Loving Seductive Magical
+              Sassy Feisty Sincere Funny Spontaneous Cheeky Naughty Naughty Naughty Unique Precious Wise Clever Joyful Kind Quirky Witty Rare Yummy Likable Breathtaking Babe Enchanting 
+              Attractive Bright Brilliant Splendid Delightful Elegant Exquisite Lovely Pleasing Stunning Plush Shimmering Witty Witty Witty Likable Likable 
+              Attractive Bright Brilliant Wonderful Splendid Elegant Exquisite Glorious Lavish Lovely Pleasing Stunning Plush Shimmering Thoughtful Thoughtful
+              Graceful Elegant Cher Foxy Pretty Cute Charming Angelic Divine Marvelous Godness Godness Marvelous Beautiful Dainty Captivating Classy Bewitching Gorgeous Striking
+              Magnetic Mesmeric Teasing Hottie Adorable Foxy Amazing Radiant Sexy Sexy Sexy Hot Appealing Appealing Appealing Alluring Beguiling Breathtaking Dainty Dreamy Fabulous Goddess
+              Heart-stopping Irresistible Hypnotic Graceful Luscious Perfect Smoking Spectacular Striking Special Affectionate Dependable Lovely Lovely Lovely Compassionate Patient
+           	  Fantastic Courageous Smart Determined Fun Thoughtful Cute Loving Seductive Magical Magical Compassionate Brilliant Alluring
+              Irreplaceable Fantastic Courageous Smart Thoughtful Thicc Cute Blessing Loving Seductive Magical Respectful Respectful Respectful
+              Irreplaceable Fantastic Courageous Smart Awesome Determined Fun Delightful Thoughtful Thicc Respectful Cute Blessing Loving Seductive Magical Joyful
               Sassy Feisty Sincere Funny Spontaneous Cheeky Naughty Unique Precious Wise Clever Joyful Kind Quirky Witty Rare Yummy Likable Breathtaking Babe Enchanting 
-              Attractive Bright Brilliant Wonderful Splendid Delightful Elegant Exquisite Glorious Lovely Pleasing Stunning Plush Shimmering
-              Attractive Bright Brilliant Wonderful Splendid Delightful Elegant Exquisite Glorious Lavish Lovely Pleasing Stunning Plush Shimmering
-              Graceful Elegant Cher Foxy Pretty Cute Charming Angelic Divine Marvelous Marvelous Beautiful Dainty Captivating Classy Bewitching Gorgeous
-              Magnetic Mesmeric Teasing Hottie Adorable Foxy Amazing Radiant Sexy Hot Appealing Alluring Beguiling Breathtaking Dainty Dreamy Fabulous Goddess
-              Heart-stopping Irresistible Hypnotic Graceful Luscious Perfect Smoking Spectacular Striking Special Affectionate Dependable Compassionate Patient
-              Irreplaceable Fantastic Courageous Smart Awesome Determined Fun Delightful Thoughtful Thicc Respectful Cute Blessing Loving Seductive Magical
-              Irreplaceable Fantastic Courageous Smart Awesome Determined Fun Delightful Thoughtful Thicc Respectful Cute Blessing Loving Seductive Magical
-              Irreplaceable Fantastic Courageous Smart Awesome Determined Fun Delightful Thoughtful Thicc Respectful Cute Blessing Loving Seductive Magical
-              Sassy Feisty Sincere Funny Spontaneous Cheeky Naughty Unique Precious Wise Clever Joyful Kind Quirky Witty Rare Yummy Likable Breathtaking Babe Enchanting 
-              Extraordinary Gifted Inspiring Intoxicating Playful Remarkable Provocative Queen Sugar Talented Unselfish Vulnerable Lovely Lovely Lovely
-              Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza
-              Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi Hi`;
+			  Extraordinary Gifted Inspiring Intoxicating Playful Remarkable Provocative Queen Sugar Talented Unselfish Vulnerable Lovely Lovely Lovely
+			  Yummy Yummy Yummy Yummy Seductive Seductive Seductive Seductive Seductive Funny Funny Funny Funny Unique Unique Unique Blessing
+              Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Aza Sexy Sexy Charming Charming Charming
+			  Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Is Sassy Sassy Sassy Sassy Smoking Smoking
+			  Thicc Thicc Thicc Thicc Thicc Thicc Thicc Thicc Thicc Thicc Thicc Thicc Thicc Thicc Thicc Thicc Thicc`;
 	var words = {};
 	var words_attr = [];
 	string_handle(lyric);
